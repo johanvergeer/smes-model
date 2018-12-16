@@ -498,6 +498,7 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
     <element xsi:type="archimate:ServingRelationship" id="b78b04b1-c0ca-4e3e-9bb7-bd49c3e2145e" source="1189c729-b123-4586-888e-df7dea2c15fb" target="2ba9fe6f-5ea2-40ee-859f-69e83338b9c2"/>
     <element xsi:type="archimate:ServingRelationship" id="ca27c54b-87d7-422f-accf-9651b1b9fd55" source="44f1bc05-6884-4f37-8a28-99365218e7a2" target="a88988bc-81d9-46b3-b404-9f33448c3615"/>
     <element xsi:type="archimate:ServingRelationship" id="cd043a39-4dd1-4c6c-a5c9-6f2f4f4da828" source="44f1bc05-6884-4f37-8a28-99365218e7a2" target="b72b3ea6-21c5-4c2b-af28-fd08c999ad1f"/>
+    <element xsi:type="archimate:ServingRelationship" id="dba0a3aa-d476-4b38-9941-b5a0e8a91089" source="9acc8fdd-f924-4c13-a2e9-2fb1acf44d91" target="a1360e24-4be0-4706-84f0-5e2ff6fd3c20"/>
   </folder>
   <folder name="Views" id="1ddfda4b-c880-4fae-a1e5-72051dbea337" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="1a Roles" id="89bb7656-8610-4043-972e-93c3f64dc0eb" viewpoint="organization">
@@ -1921,8 +1922,12 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
         <bounds x="144" y="185" width="168" height="56"/>
         <sourceConnection xsi:type="archimate:Connection" id="9225b463-3bcf-4a20-9049-40a31901fdfa" source="eef7f13e-fb52-4955-8b33-c5d04397954c" target="c51bfdf7-c7d3-4b40-b9fd-e9f7bc829af9" archimateRelationship="c88a2e09-55bd-4e54-b1aa-c1f3dc3ffae5"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="c51bfdf7-c7d3-4b40-b9fd-e9f7bc829af9" targetConnections="9225b463-3bcf-4a20-9049-40a31901fdfa" archimateElement="a1360e24-4be0-4706-84f0-5e2ff6fd3c20">
+      <child xsi:type="archimate:DiagramObject" id="c51bfdf7-c7d3-4b40-b9fd-e9f7bc829af9" targetConnections="9225b463-3bcf-4a20-9049-40a31901fdfa ac6769be-8695-479b-80f8-1e526cf37c1b" archimateElement="a1360e24-4be0-4706-84f0-5e2ff6fd3c20">
         <bounds x="404" y="185" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d1205e2e-710c-4cc2-bec5-0dec9f49450a" archimateElement="9acc8fdd-f924-4c13-a2e9-2fb1acf44d91">
+        <bounds x="408" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ac6769be-8695-479b-80f8-1e526cf37c1b" source="d1205e2e-710c-4cc2-bec5-0dec9f49450a" target="c51bfdf7-c7d3-4b40-b9fd-e9f7bc829af9" archimateRelationship="dba0a3aa-d476-4b38-9941-b5a0e8a91089"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5. Application cooperation view" id="9706c944-eefb-4490-a39d-28c30841acbe">
