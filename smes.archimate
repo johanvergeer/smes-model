@@ -122,7 +122,6 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
     <element xsi:type="archimate:BusinessProcess" name="Write service report" id="c58a3023-abfd-47af-8772-13e5f106bb7c"/>
     <element xsi:type="archimate:BusinessProcess" id="54fe4067-d02f-40fd-9d06-1b356a078d6b"/>
     <element xsi:type="archimate:BusinessProcess" name="Check customer satisfaction" id="a88988bc-81d9-46b3-b404-9f33448c3615"/>
-    <element xsi:type="archimate:BusinessProcess" name="Write service report" id="a8ebe2ff-338c-4d23-9fe3-7f4256786337"/>
     <element xsi:type="archimate:BusinessRole" name="Key Account Manager (copy)" id="95d227f5-d155-4cc0-9d25-643c0198e765">
       <documentation>SMES Components has for its most important customers Key AM (KAM) who are responsible for the total sales of in the aftermarket (spare parts and services) for a specific customer.</documentation>
       <property key="Abbreviation" value="KAM"/>
@@ -395,15 +394,12 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
     <element xsi:type="archimate:AssignmentRelationship" id="ff51317b-ee93-4f79-be36-da38210ec4ce" source="d39444c3-3206-486d-bbb5-3f49c62896c7" target="a1360e24-4be0-4706-84f0-5e2ff6fd3c20"/>
     <element xsi:type="archimate:TriggeringRelationship" name="Claim rejected" id="c9352ec0-7abf-4113-ae9b-8d33cd542b8d" source="3b1a2008-74a4-4e60-8181-aa4368325ae2" target="b72b3ea6-21c5-4c2b-af28-fd08c999ad1f"/>
     <element xsi:type="archimate:TriggeringRelationship" id="718dd35d-157a-47fe-9843-aa4be97751d2" source="6d1320c3-a754-4bdd-a3fd-7aa3cc4e670c" target="6c6d6cae-6282-455a-8692-d998ac4537cb"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="12625f8c-6cdf-4c40-a2fe-ecfd2fbd5ac6" source="a8ebe2ff-338c-4d23-9fe3-7f4256786337" target="db6c7373-57ff-4013-95c7-cfe6f0aa16bc"/>
     <element xsi:type="archimate:TriggeringRelationship" name="Claim OK" id="867705b8-e723-42cf-9efc-e80e2d17d54c" source="3b1a2008-74a4-4e60-8181-aa4368325ae2" target="8e23cfac-85a0-49e5-bf1e-849e8f3038a5"/>
     <element xsi:type="archimate:TriggeringRelationship" id="712a3fdd-2726-4db7-ae48-c18f5fe61b8e" source="2ba9fe6f-5ea2-40ee-859f-69e83338b9c2" target="3b1a2008-74a4-4e60-8181-aa4368325ae2"/>
     <element xsi:type="archimate:TriggeringRelationship" name="Agreed" id="c006e108-c04b-4dec-ab48-713589a5295a" source="6c6d6cae-6282-455a-8692-d998ac4537cb" target="2f8aeb9a-0117-4ea0-8b9b-933914e34cba"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="11513055-2936-40cb-9b30-bd97b4573b3d" source="2f8aeb9a-0117-4ea0-8b9b-933914e34cba" target="a8ebe2ff-338c-4d23-9fe3-7f4256786337"/>
     <element xsi:type="archimate:TriggeringRelationship" name="Customer not agreed" id="728b0018-b174-4b0c-b8a4-59e4c1502647" source="6c6d6cae-6282-455a-8692-d998ac4537cb" target="8e23cfac-85a0-49e5-bf1e-849e8f3038a5"/>
     <element xsi:type="archimate:AssignmentRelationship" id="daf536d7-0b14-4c08-b538-78c41440b895" source="28ac5258-122d-4e92-b3e3-d18017b8ee6d" target="3b1a2008-74a4-4e60-8181-aa4368325ae2"/>
     <element xsi:type="archimate:AssignmentRelationship" id="e5fee9b4-7f4d-4e26-b4b2-4948716a07d2" source="28ac5258-122d-4e92-b3e3-d18017b8ee6d" target="6c6d6cae-6282-455a-8692-d998ac4537cb"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="163eba97-c67c-4bbf-a125-d9199096f95c" source="28ac5258-122d-4e92-b3e3-d18017b8ee6d" target="a8ebe2ff-338c-4d23-9fe3-7f4256786337"/>
     <element xsi:type="archimate:AssignmentRelationship" id="ef2ae12c-ee9f-4b49-92a4-80ed8cd6e62e" source="a90dd2e2-ba5a-4508-b20a-e0b79c681864" target="ab5ac4ca-3c0f-4654-9358-8ee9789c784a"/>
     <element xsi:type="archimate:CompositionRelationship" id="62736040-b444-4881-871d-935748202ab3" source="b0302b2e-dd17-4ffa-a7dd-2a51d29711bd" target="4807080b-acc5-4ba0-b90e-b8775451f6f2"/>
     <element xsi:type="archimate:AssignmentRelationship" id="971e4729-ab8b-4878-a6a3-f675dd7d0bf3" source="4807080b-acc5-4ba0-b90e-b8775451f6f2" target="54fe4067-d02f-40fd-9d06-1b356a078d6b"/>
