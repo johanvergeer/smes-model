@@ -1869,7 +1869,7 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
         <child xsi:type="archimate:DiagramObject" id="0763827d-47d1-4c07-bcf9-c41ac86693d9" targetConnections="9cde391e-319d-4178-a060-e2bc5c120a62 18b2b326-652c-47aa-b082-be40f06ef8ae 74847ba9-d6f2-470a-a82b-bcef04cf3883 3591f106-c3c2-4276-956e-288c4465a765" archimateElement="db6c7373-57ff-4013-95c7-cfe6f0aa16bc">
           <bounds x="432" y="216" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="010f8820-66b1-4e8f-b64b-ab74857cdabf" targetConnections="b86cf6ca-ae67-406d-b1ba-44423ee6c0f9 d86a2695-d684-427e-a3a1-c5142d01d68e" archimateElement="b72b3ea6-21c5-4c2b-af28-fd08c999ad1f">
+        <child xsi:type="archimate:DiagramObject" id="010f8820-66b1-4e8f-b64b-ab74857cdabf" targetConnections="b86cf6ca-ae67-406d-b1ba-44423ee6c0f9 d86a2695-d684-427e-a3a1-c5142d01d68e 18b84fb8-7860-48bb-bb52-946abb0cab2e" archimateElement="b72b3ea6-21c5-4c2b-af28-fd08c999ad1f">
           <bounds x="272" y="216" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="18b2b326-652c-47aa-b082-be40f06ef8ae" source="010f8820-66b1-4e8f-b64b-ab74857cdabf" target="0763827d-47d1-4c07-bcf9-c41ac86693d9" archimateRelationship="b399a022-dff4-4252-b308-a4682b8d2d9c"/>
         </child>
@@ -1892,12 +1892,16 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
         <sourceConnection xsi:type="archimate:Connection" id="55ad1ec5-bba8-4873-9e2d-984ff70526a6" source="47de5b14-7c8d-4e71-8cf0-95ae6fb5ac08" target="7653e1bd-0db8-417e-aef2-8f120f9d8f1b" archimateRelationship="de97c130-0c47-43ae-a88a-ec52cf5742fb"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="6be63929-be14-478d-9f7f-d9e0c93dfc8f" archimateElement="42441946-95dc-46d1-a855-15f4f53e1f16">
-        <bounds x="240" y="432" width="120" height="55"/>
+        <bounds x="264" y="432" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="a21d9661-da07-461e-aecb-035c03e9ca22" source="6be63929-be14-478d-9f7f-d9e0c93dfc8f" target="6f9cd95c-212b-4e01-9387-6de77027f1f2" archimateRelationship="1faeb99e-2436-468f-9bdd-f6685a4d6984"/>
         <sourceConnection xsi:type="archimate:Connection" id="99128a96-f7d0-477f-b250-b773d30af087" source="6be63929-be14-478d-9f7f-d9e0c93dfc8f" target="d5ccc3dd-569c-4e68-a0f4-ce0c03b91bc1" archimateRelationship="978c8640-6641-4269-8c12-38443139fb58"/>
         <sourceConnection xsi:type="archimate:Connection" id="3591f106-c3c2-4276-956e-288c4465a765" source="6be63929-be14-478d-9f7f-d9e0c93dfc8f" target="0763827d-47d1-4c07-bcf9-c41ac86693d9" archimateRelationship="d94e6ca2-d4e9-4084-b58f-128ef2aebb5c">
           <bendpoint startX="372" startY="-2" endY="154"/>
         </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8e5da07d-9422-491d-a314-1b9eb0324786" archimateElement="44f1bc05-6884-4f37-8a28-99365218e7a2">
+        <bounds x="456" y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="18b84fb8-7860-48bb-bb52-946abb0cab2e" source="8e5da07d-9422-491d-a314-1b9eb0324786" target="010f8820-66b1-4e8f-b64b-ab74857cdabf" archimateRelationship="cd043a39-4dd1-4c6c-a5c9-6f2f4f4da828"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="4e 3 Complaint and claim management - Floris" id="c7c87799-18be-4563-9de6-11022648a6ba">
