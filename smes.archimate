@@ -170,10 +170,10 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
     <element xsi:type="archimate:ApplicationService" name="Customer information in SMART" id="3a0bf1b0-a2b8-4632-bef8-d0fe6ec8dc99"/>
   </folder>
   <folder name="Technology &amp; Physical" id="a785195e-ac3e-49f2-89b1-63fc69828709" type="technology">
-    <element xsi:type="archimate:CommunicationNetwork" name="LAN" id="80717512-c22c-4e5c-b389-d9908b3dd313"/>
-    <element xsi:type="archimate:Device" name="Employee Computer" id="cd4eac23-08c4-41e8-9ebe-09f5e28e32d5"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Local Area Network" id="80717512-c22c-4e5c-b389-d9908b3dd313"/>
+    <element xsi:type="archimate:Device" name="Employee PC" id="cd4eac23-08c4-41e8-9ebe-09f5e28e32d5"/>
     <element xsi:type="archimate:Device" name="Firewall" id="ebe6bb19-0f14-42fa-8a67-3c00ceeb01e1"/>
-    <element xsi:type="archimate:CommunicationNetwork" name="WAN" id="e6da967a-2dfd-4348-8111-345fc228a5a7"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internet" id="e6da967a-2dfd-4348-8111-345fc228a5a7"/>
     <element xsi:type="archimate:Node" name="Deelpunt" id="b8beba0c-d902-4d77-bcb3-ca2c9030a237"/>
     <element xsi:type="archimate:SystemSoftware" name=" MS Exchange Server" id="10ee99e1-7f57-4797-b8e1-c88d1a0f32fe"/>
     <element xsi:type="archimate:SystemSoftware" name="MS Windows" id="c9a7c474-7b84-49e6-b0df-d30014236d56"/>
@@ -181,7 +181,7 @@ In the sales planning process, the PL Manager and the Marketing Manager support 
     <element xsi:type="archimate:Node" name="Garfield" id="b1c05fd1-2e9e-4e78-b88e-0759d2f8467b"/>
     <element xsi:type="archimate:Node" name="Zeus" id="29a3e7e6-22e0-4066-b37a-85ecd7311851"/>
     <element xsi:type="archimate:Node" name="Mars" id="eb87d52a-0d1f-4295-9254-eb29ed010074"/>
-    <element xsi:type="archimate:Node" name="KitKat" id="2fd3c815-0de5-45cd-934b-063ccfb5c0af"/>
+    <element xsi:type="archimate:Node" name="Kit-Kat" id="2fd3c815-0de5-45cd-934b-063ccfb5c0af"/>
     <element xsi:type="archimate:Node" name="Twix" id="f2cde15a-599f-4127-b786-597c34736ab5"/>
     <element xsi:type="archimate:Device" name="CP1" id="13db5277-2e21-419b-baa9-790e90862013"/>
     <element xsi:type="archimate:Device" name="CP2" id="0372b091-89af-44ad-a592-1a96e2fea788"/>
